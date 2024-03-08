@@ -2,7 +2,10 @@ Hi there, I'm Owen! 🙋‍♂️.
 
 I'm 19 years old currently studying programming. ✨
 
-(https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+<br />
+![Owenlim225 Github Stats](https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+<br />
+
 <!--
 **owenlim225/owenlim225** is a ✨ _special_  repository because its `README.md` (this file) appears on your GitHub profile.
 
