@@ -3,7 +3,7 @@ Hi there, I'm Owen! 🙋‍♂️.
 I'm 19 years old currently studying programming. ✨
 
 <br />
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&theme=radical)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=owenlim225)](https://github.com/anuraghazra/github-readme-stats)
 <br />
 
 <!--
