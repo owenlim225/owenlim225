@@ -2,9 +2,7 @@ Hi there, I'm Owen! 🙋‍♂️.
 
 I'm 19 years old currently studying programming. ✨
 
-<br />
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=owenlim225)](https://github.com/anuraghazra/github-readme-stats)
-<br />
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **owenlim225/owenlim225** is a ✨ _special_  repository because its `README.md` (this file) appears on your GitHub profile.
