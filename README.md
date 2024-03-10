@@ -1,10 +1,11 @@
 Hi there, I'm Owen! 🙋‍♂️. 
+- **` Student Developer`**
 
 College student currently studying programming. ✨
 
 - 👯 I’m looking to collaborate on a future indie game
 
-- **` Student Developer`**
+
 
 ### Language I'm Currently Learning
 
