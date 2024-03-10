@@ -3,7 +3,7 @@ Hi there, I'm Owen! 🙋‍♂️.
 <br />
 <br />
 
-College student currently studying programming. ✨
+✨ 1st year college student currently studying programming. ✨
 
 - 👯 I’m looking to collaborate on a future indie game
 
