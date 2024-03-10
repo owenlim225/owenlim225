@@ -1,9 +1,8 @@
 Hi there, I'm Owen! 🙋‍♂️. 
 
-I'm 19 years old currently studying programming. ✨
+College student currently studying programming. ✨
 
 - 👯 I’m looking to collaborate on a future indie game
-- 🌱 I’m currently learning ...
 
 - **` Student Developer`**
 
