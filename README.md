@@ -1,6 +1,8 @@
 # Hi there, I'm owenlim255! 👨‍💻  
-**` `**
+
 **`Student Developer/Artist`**
+
+1st year BSIT student from UPHSL.
 <br />
 <br />
 <br />
