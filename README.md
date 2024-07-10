@@ -1,11 +1,8 @@
-# Hi there, I'm owenlim255! 👨‍💻  
+<h1 align="center">Hi 👋, I'm owenlim255! 👨‍💻 </h1>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-**`Student Developer/Artist`**
-
-1st year BSIT student from UPHSL.
-<br />
-<br />
-<br />
+## Student Developer/Artist
+[<img align="left" alt="owenlim225 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][https://www.linkedin.com/in/sherwin-l-77b1b8254/]
 
 
 
