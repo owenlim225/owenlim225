@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## Student Developer/Artist
-[<img align="left" alt="owenlim225 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][https://www.linkedin.com/in/sherwin-l-77b1b8254/]
+[<img align="left" alt="owenlim225| LinkedIn" width="22px" href="https://www.linkedin.com/in/sherwin-l-77b1b8254/" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 
 
