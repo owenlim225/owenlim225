@@ -6,7 +6,7 @@
 
 
 ### Connect with me:
-[<img align="left" alt="owenlim225 | LinkedIn" width="22px" src="icons/linkedin/linkedin-original.svg" />][linkedin]
+[<img align="left" alt="owenlim225 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />][linkedin]
 
 [linkedin]: https://www.linkedin.com/in/sherwin-l-77b1b8254/
 
