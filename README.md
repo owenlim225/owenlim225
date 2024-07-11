@@ -30,10 +30,7 @@
 <img align="left" alt="Figma" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
 <img align="left" alt="canva" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
 ---
-<br />
-<br />
 
-**`💻 📊 Stats 📊 💻`**
 
 <table>
 <tr>
@@ -70,12 +67,6 @@
 </p>
 </details>
 </table>
-
-<br>
-<p align="center">
-<img src="https://activity-graph.herokuapp.com/graph?username=owenlim225&theme=react-dark&bg_color=00000000&color=037bfc&line=037bfc&point=00000000&area=true&hide_border=true"> 
-</p>
-<br>
 
 
 <p align="center">
