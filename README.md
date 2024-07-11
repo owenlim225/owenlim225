@@ -33,41 +33,24 @@
 <br>
 <br>
 
-<table>
-<tr>
-  <td align="center">
-  <p align="center">
-  <a href="https://github.com/owenlim225">
+<p align="center">
     <img align="center" height="200px" width="600"src="https://github-readme-stats.vercel.app/api?username=owenlim225&count_private=true&show_icons=true&show_icons=true&locale=en&theme=radical"/>
-  </a>
-  </td>
-  <td align="center">
-  <a href="https://github.com/owenlim225">
-    <img align="center" height="200px" width="600" src="https://github-readme-stats.vercel.app/api/top-langs?username=owenlim225&show_icons=true&locale=en&layout=compact&theme=radical" />
-    
-  </a>
-  </td>
 </p>
-</details>
-</table>
 
-<table>
-<tr>
-  <!--<td align="center">
-  <p align="center">
-  <a href="https://github.com/owenlim225">
-    <img align="center" height="200px" width="600" src="https://github-readme-stats.vercel.app/api/wakatime?username=owenlim225"/>
-  </a>
-  </td>-->
-  <td align="center">
-  <a href="https://github.com/owenlim225">
-    <img align="center" height="200px" width="600" src="https://github-readme-streak-stats.herokuapp.com?user=owenlim225&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C3DD29&ring=DD2727&sideNums=ABDD0F&dates=11A4DD" />
-    
-  </a>
-  </td>
+
+<p align="center">
+    <img align="center" height="200px" width="600" src="https://github-readme-stats.vercel.app/api/top-langs?username=owenlim225&show_icons=true&locale=en&layout=compact&theme=radical" />
 </p>
-</details>
-</table>
+
+
+<p align="center">
+    <img align="center" height="200px" width="600" src="https://github-readme-stats.vercel.app/api/wakatime?username=owenlim225"/>
+</p>
+
+
+<p align="center">
+    <img align="center" height="200px" width="600" src="https://github-readme-streak-stats.herokuapp.com?user=owenlim225&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C3DD29&ring=DD2727&sideNums=ABDD0F&dates=11A4DD" />
+</p>
 
 
 <p align="center">
