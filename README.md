@@ -33,6 +33,13 @@
 <br>
 <br>
 
+
+<p align="center">
+    <img align="center" height="200px" width="600" src="https://github-readme-streak-stats.herokuapp.com?user=owenlim225&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C3DD29&ring=DD2727&sideNums=ABDD0F&dates=11A4DD" />
+</p>
+
+
+
 <table>
 <tr>
   <td align="center">
@@ -50,11 +57,6 @@
 </p>
 </details>
 </table>
-
-
-<p align="center">
-    <img align="center" height="200px" width="600" src="https://github-readme-streak-stats.herokuapp.com?user=owenlim225&theme=dark&date_format=M%20j%5B%2C%20Y%5D&fire=C3DD29&ring=DD2727&sideNums=ABDD0F&dates=11A4DD" />
-</p>
 
 
 <p align="center">
