@@ -33,14 +33,23 @@
 <br>
 <br>
 
-<p align="center">
+<table>
+<tr>
+  <td align="center">
+  <p align="center">
+  <a href="https://github.com/owenlim225">
     <img align="center" height="200px" width="600"src="https://github-readme-stats.vercel.app/api?username=owenlim225&count_private=true&show_icons=true&show_icons=true&locale=en&theme=radical"/>
-</p>
-
-
-<p align="center">
+  </a>
+  </td>
+  <td align="center">
+  <a href="https://github.com/owenlim225">
     <img align="center" height="200px" width="600" src="https://github-readme-stats.vercel.app/api/top-langs?username=owenlim225&show_icons=true&locale=en&layout=compact&theme=radical" />
+    
+  </a>
+  </td>
 </p>
+</details>
+</table>
 
 
 <p align="center">
