@@ -8,14 +8,15 @@
 ### Connect with me:
 [<img align="left" alt="owenlim225 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />][linkedin]
 
+[linkedin]: https://www.linkedin.com/in/sherwin-l-77b1b8254/
+
+
 
 ### My itch.io page:
 
 https://yuwan-tamad.itch.io/
 
 
-
-[linkedin]: https://www.linkedin.com/in/sherwin-l-77b1b8254/
 
 
 <br>
