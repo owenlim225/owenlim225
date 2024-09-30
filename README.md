@@ -1,21 +1,21 @@
-<h1 align="center">Hi 👋, I'm owenlim255! 👨‍💻 </h1>
+<h1 align="center">Hi 👋, I'm Sherwin P. Limosnero 👨‍💻 </h1>
+<h3 align="center">College Student Developer 👨‍💻 + Artist 🎨 + Musician 🎵</h3>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<h2 align="left">Connect with me:</h2>
+<p align="left">
+<a href="https://linkedin.com/in/sherwin-l-77b1b8254" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lauvigne.lumeda" height="30" width="40" /></a>
+<a href="https://fb.com/owenlim225" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="owenlim225" height="30" width="40" /></a>
+<a href="https://instagram.com/sshrwn_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="owenlim225_" height="30" width="40" /></a>
+<a href="https://discord.gg/owenlim225" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="owenlim225" height="30" width="40" /></a>
 
-## I'm a Student Developer & Artist
 
+<h2 align="left">My itch.io page</h2>
+<a href="https://yuwan-tamad.itch.io/" target="_blank">
+  <img src="https://static.itch.io/images/badge.svg" alt="Itch.io" style="width: 150px; height: auto;" />
+</a>
 
-### Connect with me:
-[<img align="left" alt="owenlim225 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />][linkedin]
-
-[linkedin]: https://www.linkedin.com/in/sherwin-l-77b1b8254/
-
-<br>
-<br>
-
-### My itch.io page:
-
-https://yuwan-tamad.itch.io/
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 
