@@ -1,5 +1,8 @@
 <!--Introduction-->
 <h1 align="center">Hi 👋, I'm owenlim225 👨‍💻</h1>
+
+![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)
+
 <h3 align="center">College Student Developer 👨‍💻 + Artist 🎨 + Musician 🎵</h3>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="welcome-gif">
