@@ -1,12 +1,12 @@
 <!--Introduction-->
-<h1 align="center">Hi 👋, I'm owenlim225👨‍💻 </h1>
+<h1 align="center">Hi 👋, I'm owenlim225 👨‍💻</h1>
 <h3 align="center">College Student Developer 👨‍💻 + Artist 🎨 + Musician 🎵</h3>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="welcome-gif">
 </p>
 
 <!--Social Media Links-->
-<h2 align="center">Connect with me</h2>
+<h2 align="center">Connect with me 📞</h2>
 <p align="center">
 <a href="https://linkedin.com/in/sherwin-l-77b1b8254" target="blank">
 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
@@ -23,7 +23,7 @@
 </p>
 
 <!--Itch.io page-->
-<h2 align="center">My itch.io page</h2>
+<h2 align="center">My itch.io page 🎮</h2>
 <p align="center">
   <a href="https://yuwan-tamad.itch.io/" target="_blank">
     <img src="https://static.itch.io/images/badge.svg" alt="Itch.io" style="width: 150px; height: auto;" />
@@ -35,7 +35,7 @@
 </p>
 
 <!--Tools I used-->
-<h3 align="center">Languages and Tools</h3>
+<h2 align="center">Languages and Tools 👨‍💻</h2>
 
 <p align="center">
    <img alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
