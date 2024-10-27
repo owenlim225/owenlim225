@@ -1,9 +1,10 @@
 <!--Introduction-->
+![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)
 <h1 align="center">Hi 👋, I'm owenlim225 👨‍💻</h1>
 
-![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)
-
 <h3 align="center">College Student Developer 👨‍💻 + Artist 🎨 + Musician 🎵</h3>
+
+<!--New line-->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="welcome-gif">
 </p>
@@ -86,3 +87,44 @@
 <p align="center">
     <img src="https://github-profile-trophy.vercel.app/?username=owenlim225&row=1&column=6&theme=gruvbox&margin-w=15&margin-h=15"/>
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--New line-->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="welcome-gif">
+</p>
+
+<!--Profile viewer-->
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=owenlim225&label=Profile%20views&color=0e75b6&style=flat" alt="owenlim225" /> </p>
+
+<!-- Snake contribution animation -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/owenlim225/owenlim225/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/owenlim225/owenlim225/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/owenlim225/owenlim225/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+
+
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</div>
