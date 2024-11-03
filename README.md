@@ -1,7 +1,12 @@
 <!--Introduction-->
 <!--![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)-->
 
-<h1 align="center">Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> </h1>
+
+<h1 align="center">Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> <p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider-gif">
+</p></h1>
+
+
 
 
 <h4 align="center">🔥 A beginner game developer with a passion for music and story telling. 🔥 </h4>
@@ -40,10 +45,6 @@
 <!----------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------->
 
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider-gif">
-</p>
 
 
 <!--cs,js,ts,next,expressjs,nodejs,mongodb,firebase,md,jest,styledcomponents,postman,stackoverflow-->
