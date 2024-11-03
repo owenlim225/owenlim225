@@ -4,7 +4,7 @@
 <h1 align="center">Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> </h1>
 
 
-<h4 align="center">A beginner game developer with a passion for music and story telling.</h4>
+<h4 align="center">🔥 A beginner game developer with a passion for music and story telling. 🔥 </h4>
 <h4 align="center">download my games here: <!-- Itch.io -->
 <a href="https://yuwan-tamad.itch.io/" target="_blank" title="Itch.io">
   <img alt="Itch.io" src="https://img.shields.io/static/v1?message=Itch.io&logo=itch.io&label=&color=FA5C5C&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
