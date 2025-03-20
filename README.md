@@ -9,9 +9,15 @@
 
 
 
-<h4 align="center">🔥 A beginner game developer with a passion for music and story telling. 🔥 </h4>
-<h4 align="center">download my games here: <!-- Itch.io -->
+<h4 align="center">Freelance Game/Application/Web Developer</h4>
+<h4 align="center">Experimental Games:   <!-- Itch.io -->
 <a href="https://yuwan-tamad.itch.io/" target="_blank" title="Itch.io">
+  <img alt="Itch.io" src="https://img.shields.io/static/v1?message=Itch.io&logo=itch.io&label=&color=FA5C5C&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
+</a></h4>
+
+
+<h4 align="center">Kamiyon Studio:   <!-- Itch.io -->
+<a href="https://kamiyon-studio.itch.io/" target="_blank" title="Itch.io">
   <img alt="Itch.io" src="https://img.shields.io/static/v1?message=Itch.io&logo=itch.io&label=&color=FA5C5C&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
 </a></h4>
 
