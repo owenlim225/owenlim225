@@ -69,50 +69,6 @@
 <!----------------------------------------------------------------------------------------------------------------------->
 
 
-<!--Github status windows-->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" /> Github Stats 
-
-
-<!-- GitHub Streak -->
-<div align="center">
-  <img 
-    align="center" 
-    width="600px" 
-    height="200px" 
-    src="https://github-readme-streak-stats.herokuapp.com?user=owenlim225&theme=omni&hide_border=true&mode=weekly&currStreakNum=EB4ADD&fire=EB0000&currStreakLabel=E480EB" 
-  />
-</div>
-
-<br/>
-
-<!-- GitHub Stats and Progress -->
-<div align="center">
-  <img 
-    align="center" 
-    width="500px" 
-    height="250px" 
-    src="https://github-readme-stats.vercel.app/api?username=owenlim225&count_private=true&show_icons=true&theme=radical&hide_border=true" 
-  />
-
-  <img 
-    align="center" 
-    width="500px" 
-    height="250px" 
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=owenlim225&layout=compact&theme=radical&hide_border=true" 
-  />
-</div>
-
-
-<!----------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------------------------------------------------->
-
-
-<p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=owenlim225&row=1&column=6&theme=gruvbox&margin-w=15&margin-h=15"/>
-</p>
-
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
