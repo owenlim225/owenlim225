@@ -2,13 +2,18 @@
 ![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)
 
 
-
 <div align="center">
   <h1>Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="30" height="30" /></h1>
+
+  <p align="center">
+  <img src="https://img.shields.io/badge/Focus-AI%2C%20Game%20Dev%2C%20Web3-blueviolet?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Transitioning%20to%20Web3-green?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Mindset-Precision%20%26%20Execution-orange?style=flat-square"/>
+</p>
+
   <p align="center">
     <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider-gif">
   </p>
-
 
 
 
@@ -19,7 +24,7 @@
   </p>
 
 <p align="center">
-  <a href="https://kamiyon-studio.itch.io/" target="_blank"><img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Kamiyon%20Studio-FA5C5C?style=for-the-badge&logo=itch.io"/></a>&nbsp;&nbsp;<a href="https://yuwan-tamad.itch.io/" target="_blank"><img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Personal-FA5C5C?style=for-the-badge&logo=itch.io"/></a>
+  <a href="https://kamiyon-studio.itch.io/" target="_blank"><img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Kamiyon%20Studio-FA5C5C?style=for-the-badge&logo=itch.io"/></a>&nbsp;&nbsp;<a href="https://yuwan-tamad.itch.io/" target="_blank"><img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Personal%20Work-FA5C5C?style=for-the-badge&logo=itch.io"/></a>
 </p>
 
 
@@ -27,26 +32,18 @@
 <!----------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------->
 
+---
 
 <!--Social Media Links-->
 <h2 align="center">Connect with me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" align="center" /> </h2>
 <p align="center">
-
-<!--Gmail-->
-<a href="mailto:limosnerosherwin@gmail.com" title="Email"> 
-  <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" align="center"/> 
-</a>
-
+  <em>For business inquiries, collaborations, or just want to chat about AI, gaming, and Web3 — feel free to reach out!</em>
+</p>
+<p align="center">
 <!--Linkedin-->
-<a href="https://linkedin.com/in/sherwin-l-77b1b8254" title="LinkedIn"> 
-  <img alt="LinkedIn" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
-</a>
+<a href="https://linkedin.com/in/sherwin-l-77b1b8254" title="LinkedIn"><img alt="LinkedIn" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/></a>&nbsp;&nbsp;<a href="https://discord.gg/owenlim225" target="_blank" title="Discord"><img alt="Discord" src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=5865F2&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/></a></p>
 
-<!--Discord-->
-<a href="https://discord.gg/owenlim225" target="_blank" title="Discord">
-  <img alt="Discord" src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=5865F2&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
-</a>
-
+---
 
 <!----------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------->
@@ -57,24 +54,34 @@
 <!--cs,js,ts,next,expressjs,nodejs,mongodb,firebase,md,jest,styledcomponents,postman,stackoverflow-->
 
 
+<!--
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Hammer and Wrench" width="30" height="30" /> **Languages and Tools:**
-<p align="center">
-  <a href="https://skillicons.dev"> 
-    <img src="https://skillicons.dev/icons?i=cs,py,godot,unity,html,css,tailwind,bootstrap,react,vite,git,github,vscode,figma&perline=7" />
-  </a>
-</p>
-
-
-<!----------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------------------------------------------------->
-<!----------------------------------------------------------------------------------------------------------------------->
 
 <div align="center">
-  <!-- <img src="https://github-readme-stats.vercel.app/api?username=owenlim225&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  /> -->
-  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=owenlim225&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=1000&theme=dracula&hide_border=true&order=2" height="150" alt="languages graph"  /> -->
+
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![Godot](https://img.shields.io/badge/Godot-%23FFFFFF.svg?style=for-the-badge&logo=godotengine&logoColor=blue)![Unity](https://img.shields.io/badge/Unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)![Shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)![Zustand](https://img.shields.io/badge/zustand-%23764ABC.svg?style=for-the-badge&logo=react&logoColor=white)![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)![ESLint](https://img.shields.io/badge/ESLint-4B3B8C?style=for-the-badge&logo=eslint&logoColor=white)![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+
+</div>
+-->
+
+
+<!----------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<h2 align="center">Github Analytics <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Analytics" width="25" height="25" align="center" /> </h2>
+<p align="center">
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&theme=gotham&count_private=true" height="160"/></td>
+      <td align="center"><img src="https://nirzak-streak-stats.vercel.app/?user=owenlim225&theme=gotham" height="160"/></td>
+    </tr>
+  </table>
+
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=owenlim225&radius=16&theme=github-dark&area=true&order=5&hide_title=true&hide_border=true" height="300" alt="activity-graph graph"  />
 </div>
-
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
@@ -86,18 +93,6 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="welcome-gif">
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
