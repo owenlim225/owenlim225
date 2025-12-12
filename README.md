@@ -1,25 +1,32 @@
 <!--Introduction-->
-<!--![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)-->
-
-
-<h1 align="center">Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="30" height="30" /> <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider-gif">
-</p></h1>
+![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)
 
 
 
+<div align="center">
+  <h1>Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="30" height="30" /></h1>
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider-gif">
+  </p>
 
-<h4 align="center">Freelance Game/Application/Web Developer</h4>
-<h4 align="center">Experimental Games:   <!-- Itch.io -->
-<a href="https://yuwan-tamad.itch.io/" target="_blank" title="Itch.io">
-  <img alt="Itch.io" src="https://img.shields.io/static/v1?message=Itch.io&logo=itch.io&label=&color=FA5C5C&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
-</a></h4>
 
 
-<h4 align="center">Kamiyon Studio:   <!-- Itch.io -->
-<a href="https://kamiyon-studio.itch.io/" target="_blank" title="Itch.io">
-  <img alt="Itch.io" src="https://img.shields.io/static/v1?message=Itch.io&logo=itch.io&label=&color=FA5C5C&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center"/> 
-</a></h4>
+
+  <h3>Founder & Creative Director • Freelance Game Developer • Web3 Enthusiast</h3>
+  <p>
+    I am a Multidisciplinary creator building games, digital experiences, and early-stage products.  
+    I use code, design, and AI-augmented workflows to bring ideas to life.
+  </p>
+
+<p align="center">
+  <a href="https://kamiyon-studio.itch.io/" target="_blank">
+    <img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Kamiyon%20Studio-FA5C5C?style=for-the-badge&logo=itch.io"/>
+  </a>
+
+  <a href="https://yuwan-tamad.itch.io/" target="_blank">
+    <img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Personal-FA5C5C?style=for-the-badge&logo=itch.io"/>
+  </a>
+</p>
 
 
 <!----------------------------------------------------------------------------------------------------------------------->
@@ -67,6 +74,12 @@
 <!----------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------->
 <!----------------------------------------------------------------------------------------------------------------------->
+
+<div align="center">
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=owenlim225&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  /> -->
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=owenlim225&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=1000&theme=dracula&hide_border=true&order=2" height="150" alt="languages graph"  /> -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=owenlim225&radius=16&theme=github-dark&area=true&order=5&hide_title=true&hide_border=true" height="300" alt="activity-graph graph"  />
+</div>
 
 
 <p align="center">
