@@ -1,5 +1,5 @@
 <!--Introduction-->
-![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png)
+<!-- ![Logo](https://raw.githubusercontent.com/owenlim225/owenlim225/main/Personal%20Logo%20NEW.png) -->
 
 
 <div align="center">
