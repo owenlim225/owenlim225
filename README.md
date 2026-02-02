@@ -75,7 +75,7 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&theme=gotham&count_private=true" height="160"/></td>
+      <!-- <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&theme=gotham&count_private=true" height="160"/></td> -->
       <td align="center"><img src="https://nirzak-streak-stats.vercel.app/?user=owenlim225&theme=gotham" height="160"/></td>
     </tr>
   </table>
