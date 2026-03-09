@@ -73,9 +73,9 @@
   <!-- <table>
     <tr>
       <!-- <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=owenlim225&show_icons=true&theme=gotham&count_private=true" height="160"/></td> -->
-      <td align="center"><img src="https://nirzak-streak-stats.vercel.app/?user=owenlim225&theme=gotham" height="160"/></td>
+      <!-- <td align="center"><img src="https://nirzak-streak-stats.vercel.app/?user=owenlim225&theme=gotham" height="160"/></td>
     </tr>
-  </table> -->
+  </table> --> -->
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=owenlim225&radius=16&theme=github-dark&area=true&order=5&hide_title=true&hide_border=true" height="300" alt="activity-graph graph"  />
 </div>
