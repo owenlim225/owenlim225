@@ -3,7 +3,12 @@
 
 
 <div align="center">
-  <h1>Hi, I'm Sherwin <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="30" height="30" /></h1>
+  <h1>
+  Hi, I'm Sherwin 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" 
+       width="30" 
+       style="vertical-align: middle;" />
+</h1>
 
   <p align="center">
   <img src="https://img.shields.io/badge/Focus-AI%2C%20Game%20Dev%2C%20Web3-blueviolet?style=flat-square"/>
