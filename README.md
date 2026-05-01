@@ -70,7 +70,14 @@
 <!----------------------------------------------------------------------------------------------------------------------->
 
 
-<h2 align="center">Github Analytics <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Analytics" width="25" height="25" align="center" /> </h2>
+<h2 align="center">
+  Github Analytics 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" 
+       alt="Analytics" 
+       width="25" 
+       style="vertical-align: middle;" />
+</h2>
+
 <p align="center">
 
 <div align="center">
