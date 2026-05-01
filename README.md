@@ -32,7 +32,13 @@
 
 
 <!--Social Media Links-->
-<h2 align="center">Connect with me <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" align="center" /> </h2>
+<h2 align="center">
+  Connect with me 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" 
+       alt="Handshake" 
+       width="25" 
+       style="vertical-align: middle;" />
+</h2>
 <p align="center">
   <em>For business inquiries, collaborations, or just want to chat about AI, gaming, and Web3 — feel free to reach out!</em>
 </p>
