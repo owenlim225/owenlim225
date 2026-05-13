@@ -29,6 +29,8 @@
     I use code, design, and AI-augmented workflows to bring ideas to life.
   </p>
 
+<!-- Socials -->
+
 <p align="center">
   <a href="https://kamiyon-studio.itch.io/" target="_blank"><img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Kamiyon%20Studio-FA5C5C?style=for-the-badge&logo=itch.io"/></a>&nbsp;&nbsp;<a href="https://yuwan-tamad.itch.io/" target="_blank"><img alt="Itch.io" src="https://img.shields.io/badge/Itch.io-Personal%20Work-FA5C5C?style=for-the-badge&logo=itch.io"/></a>
 </p>
