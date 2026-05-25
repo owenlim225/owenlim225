@@ -23,7 +23,7 @@
   </p>
 
 
-  <h3><b>Founder & Creative Director • Game Dev • Web3 • AI & Automation</b></h3>
+  <h3><b>Founder & Creative Director • Game Dev • Web3 Builder/Contributor• AI & Automation</b></h3>
   <p>
     I am a Multidisciplinary creator building games, digital experiences, and early-stage products.  
     I use code, design, and AI-augmented workflows to bring ideas to life.
