@@ -51,7 +51,7 @@
        style="vertical-align: middle;" />
 </h2>
 <p align="center">
-  <em>For business inquiries, collaborations, or just want to chat about AI, gaming, and Web3 — feel free to reach out!</em>
+  <em>For business inquiries, collaborations, or just want to chat about AI, gaming, and Web3/blockchain — feel free to reach out!</em>
 </p>
 <p align="center">
 <!--Linkedin-->
