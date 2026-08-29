@@ -34,7 +34,7 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/stats/commits-monthly-dark.svg">
-    <img src="images/stats/commits-monthly-light.svg" width="100%" alt="Commits per month, last 3 years"/>
+    <img src="images/stats/commits-monthly-light.svg" width="100%" alt="Contributions per month, last 3 years"/>
   </picture>
 </div>
 

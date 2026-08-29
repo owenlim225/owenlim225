@@ -1,53 +1,25 @@
-const { calculateRank } = require('../utils');
 const { fmt } = require('../theme');
 
-function generateCombinedStatsSVG(theme, data) {
+function generateCombinedStatsSVG(theme, stats) {
   const t = theme;
-  const user = data.user;
-  const totalStars = user.repositories.nodes.reduce((acc, repo) => acc + repo.stargazers.totalCount, 0);
-  const totalCommits = user.contributionsCollection.totalCommitContributions + user.contributionsCollection.restrictedContributionsCount;
-  const totalPRs = user.pullRequests ? user.pullRequests.totalCount : 0;
-  const totalIssues = user.issues ? user.issues.totalCount : 0;
-  const followers = user.followers ? user.followers.totalCount : 0;
-  const repoCount = user.repositories.nodes.length;
-
-  const rank = calculateRank({
-    commits: totalCommits,
-    contribs: user.contributionsCollection.contributionCalendar.totalContributions || 0,
-    issues: totalIssues,
-    prs: totalPRs,
-    stars: totalStars,
+  const {
+    stars,
+    commits,
+    pullRequests,
+    issues,
     followers,
-    repos: repoCount,
-  });
+    rank,
+    contributions,
+  } = stats;
 
-  const contributionCalendar = user.contributionsCollection.contributionCalendar;
-  const weeks = contributionCalendar.weeks;
-  const days = weeks.flatMap((week) => week.contributionDays);
-  let currentStreak = 0;
-  let longestStreak = 0;
-  const sortedDays = [...days].sort((a, b) => new Date(a.date) - new Date(b.date));
+  const {
+    total: totalContributions,
+    rangeLabel,
+    currentStreak,
+    longestStreak,
+    sparkline: monthly,
+  } = contributions;
 
-  for (let i = sortedDays.length - 1; i >= 0; i--) {
-    if (sortedDays[i].contributionCount > 0) {
-      currentStreak += 1;
-    } else {
-      break;
-    }
-  }
-
-  let temp = 0;
-  for (const day of sortedDays) {
-    if (day.contributionCount > 0) {
-      temp += 1;
-      longestStreak = Math.max(longestStreak, temp);
-    } else {
-      temp = 0;
-    }
-  }
-
-  const totalContributions = contributionCalendar.totalContributions;
-  const firstContributionDate = sortedDays[0] ? sortedDays[0].date : null;
   const leftWidth = 450;
   const rightWidth = 495;
   const height = 195;
@@ -55,15 +27,15 @@ function generateCombinedStatsSVG(theme, data) {
   const totalWidth = leftWidth + rightWidth + gap;
 
   const metrics = [
-    { label: 'Total Stars', value: totalStars },
-    { label: 'Total Commits', value: totalCommits },
-    { label: 'Total PRs', value: totalPRs },
-    { label: 'Total Issues', value: totalIssues },
+    { label: 'Total Stars', value: stars },
+    { label: 'Total Commits', value: commits },
+    { label: 'Total PRs', value: pullRequests },
+    { label: 'Total Issues', value: issues },
     { label: 'Followers', value: followers },
   ];
 
   const trackW = 275;
-  const maxLog = Math.max(...metrics.map((m) => Math.log10((m.value || 0) + 1)));
+  const maxLog = Math.max(...metrics.map((m) => Math.log10((m.value || 0) + 1)), 1);
   metrics.forEach((m) => {
     m.barW = Math.round(trackW * (Math.log10((m.value || 0) + 1) / maxLog));
   });
@@ -77,7 +49,6 @@ function generateCombinedStatsSVG(theme, data) {
   const streakProgress = longestStreak > 0 ? currentStreak / longestStreak : 0;
   const streakOffset = streakC - streakProgress * streakC;
 
-  const monthly = require('../api').monthlyContributions(user, 14);
   let sparkSVG = '';
   if (monthly.length >= 2) {
     const maxC = Math.max(...monthly.map((m) => m.c), 1);
@@ -102,7 +73,7 @@ function generateCombinedStatsSVG(theme, data) {
       <rect class="cs-bar" style="animation-delay:${250 + i * 110}ms" x="25" y="${44 + i * 32}" width="${m.barW}" height="4" rx="2" fill="url(#cs-bg)"/>
     </g>`).join('');
 
-  return `<svg width="${totalWidth}" height="${height}" viewBox="0 0 ${totalWidth} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: ${fmt(totalStars)} stars, ${fmt(totalCommits)} commits, rank ${rank.level}. ${fmt(totalContributions)} contributions, current streak ${currentStreak} days.">
+  return `<svg width="${totalWidth}" height="${height}" viewBox="0 0 ${totalWidth} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: ${fmt(stars)} stars, ${fmt(commits)} commits, rank ${rank.level}. ${fmt(totalContributions)} contributions, current streak ${currentStreak} days.">
   <style>
     .cs-lab { font: 400 12.5px 'Segoe UI', Ubuntu, sans-serif; fill: ${t.muted}; }
     .cs-val { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: ${t.ink}; }
@@ -176,7 +147,7 @@ function generateCombinedStatsSVG(theme, data) {
     <g class="cs-row" style="animation-delay:250ms">
       <text class="cs-big" x="82.5" y="86" text-anchor="middle">${fmt(totalContributions)}</text>
       <text class="cs-sub" x="82.5" y="114" text-anchor="middle">Total Contributions</text>
-      <text class="cs-date" x="82.5" y="136" text-anchor="middle">${firstContributionDate ? new Date(firstContributionDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'N/A'} - Present</text>
+      <text class="cs-date" x="82.5" y="136" text-anchor="middle">${rangeLabel}</text>
     </g>
     <g transform="translate(236,42)">
       <circle r="44" stroke="${t.grid}" stroke-width="7" fill="none"/>

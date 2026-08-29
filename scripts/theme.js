@@ -25,7 +25,8 @@ const THEMES = {
   },
 };
 
-const fmt = (n) => Number(n || 0).toLocaleString('en-US').replace(/,/g, ' ');
+const numberFormat = new Intl.NumberFormat('en-US');
+const fmt = (n) => numberFormat.format(Number(n || 0));
 const fmtK = (n) => (n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(n));
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const escapeXML = (value) => String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

@@ -125,15 +125,12 @@ async function fetchGitHubData() {
 
   const createdYear = new Date(user.createdAt).getFullYear();
   const currentYear = new Date().getFullYear();
+  const todayISO = new Date().toISOString().slice(0, 10);
 
-  let aggregatedContributions = {
-    totalCommitContributions: 0,
-    restrictedContributionsCount: 0,
-    contributionCalendar: {
-      totalContributions: 0,
-      weeks: [],
-    },
-  };
+  // Collect per-year, then normalize via date map so year-boundary weeks do not double-count.
+  const byDate = new Map();
+  let totalCommitContributions = 0;
+  let restrictedContributionsCount = 0;
 
   for (let year = createdYear; year <= currentYear; year++) {
     const from = `${year}-01-01T00:00:00Z`;
@@ -146,7 +143,6 @@ async function fetchGitHubData() {
             totalCommitContributions
             restrictedContributionsCount
             contributionCalendar {
-              totalContributions
               weeks {
                 contributionDays {
                   contributionCount
@@ -163,53 +159,52 @@ async function fetchGitHubData() {
       const yearData = await postGraphQL(contributionQuery);
       const collection = yearData.user.contributionsCollection;
 
-      aggregatedContributions.totalCommitContributions += collection.totalCommitContributions;
-      aggregatedContributions.restrictedContributionsCount += collection.restrictedContributionsCount;
-      aggregatedContributions.contributionCalendar.totalContributions += collection.contributionCalendar.totalContributions;
-      aggregatedContributions.contributionCalendar.weeks.push(...collection.contributionCalendar.weeks);
+      totalCommitContributions += collection.totalCommitContributions;
+      restrictedContributionsCount += collection.restrictedContributionsCount;
+
+      for (const week of collection.contributionCalendar.weeks) {
+        for (const day of week.contributionDays) {
+          // Keep only days inside the requested year and not past today.
+          // Year queries return partial weeks that spill into adjacent years.
+          if (day.date < `${year}-01-01` || day.date > `${year}-12-31`) continue;
+          if (day.date > todayISO) continue;
+          byDate.set(day.date, day.contributionCount || 0);
+        }
+      }
     } catch (error) {
       console.error(`Failed to fetch data for ${year}:`, error);
     }
   }
 
-  const todayISO = new Date().toISOString().slice(0, 10);
-  aggregatedContributions.contributionCalendar.weeks = aggregatedContributions.contributionCalendar.weeks
-    .map((w) => ({ contributionDays: w.contributionDays.filter((d) => d.date <= todayISO) }))
-    .filter((w) => w.contributionDays.length > 0);
+  // Rebuild a calendar weeks structure from the deduped day map for downstream consumers.
+  const sortedDates = [...byDate.keys()].sort();
+  const weeks = [];
+  let currentWeek = null;
+  for (const date of sortedDates) {
+    const dow = new Date(`${date}T12:00:00Z`).getUTCDay(); // 0=Sun
+    if (!currentWeek || dow === 0) {
+      currentWeek = { contributionDays: [] };
+      weeks.push(currentWeek);
+    }
+    currentWeek.contributionDays.push({
+      date,
+      contributionCount: byDate.get(date),
+    });
+  }
 
-  user.contributionsCollection = aggregatedContributions;
+  const totalContributions = [...byDate.values()].reduce((a, b) => a + b, 0);
+
+  user.contributionsCollection = {
+    totalCommitContributions,
+    restrictedContributionsCount,
+    contributionCalendar: {
+      // Always derived from the same day map used for charts/streaks.
+      totalContributions,
+      weeks,
+    },
+  };
+
   return { user };
 }
 
-function calendarDays(user) {
-  const byDate = new Map();
-  for (const week of user.contributionsCollection.contributionCalendar.weeks) {
-    for (const day of week.contributionDays) {
-      byDate.set(day.date, day.contributionCount);
-    }
-  }
-  return [...byDate.entries()]
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([date, count]) => ({ date, count }));
-}
-
-function monthlyContributions(user, count = 36) {
-  const totals = {};
-  for (const { date, count: c } of calendarDays(user)) {
-    const key = date.slice(0, 7);
-    totals[key] = (totals[key] || 0) + c;
-  }
-  return Object.keys(totals)
-    .sort()
-    .map((m) => ({ m, c: totals[m] }))
-    .slice(-count);
-}
-
-function dailyContributions(user, count = 40) {
-  const days = calendarDays(user);
-  const todayISO = new Date().toISOString().slice(0, 10);
-  const upToToday = days.filter((d) => d.date <= todayISO);
-  return upToToday.slice(-count).map((d) => ({ d: d.date, c: d.count }));
-}
-
-module.exports = { fetchGitHubData, monthlyContributions, dailyContributions };
+module.exports = { fetchGitHubData };

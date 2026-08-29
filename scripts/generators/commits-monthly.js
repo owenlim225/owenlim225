@@ -1,19 +1,29 @@
 const { fmt, MONTH_NAMES, sharedCSS } = require('../theme');
 
-function generateCommitsMonthlySVG(theme, months) {
+/**
+ * Renders contribution-calendar monthly counts (not commit-only history).
+ * Stats chips (TOTAL / AVG / PEAK / THIS MONTH) are derived only from `months`.
+ */
+function generateCommitsMonthlySVG(theme, months, meta = {}) {
   const t = theme;
   const W = 955, H = 270;
   const X0 = 52, X1 = 931, Y0 = 74, BASE = 226;
   const n = months.length;
+  if (n === 0) {
+    return `<svg width="955" height="270" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg"></svg>`;
+  }
+
   const pitch = (X1 - X0) / n;
   const barW = Math.round(pitch * 0.66);
 
+  // Single source: all chips come from the same monthly array used for bars.
   const counts = months.map((x) => x.c);
-  const total = counts.reduce((a, b) => a + b, 0);
-  const avg = Math.round(total / n);
-  const peak = Math.max(...counts);
-  const peakIdx = counts.indexOf(peak);
-  const yMax = Math.ceil((peak * 1.08) / 500) * 500;
+  const total = meta.monthlyTotal != null ? meta.monthlyTotal : counts.reduce((a, b) => a + b, 0);
+  const avg = meta.monthlyAvg != null ? meta.monthlyAvg : Math.round(total / n);
+  const peakIdx = meta.peakIdx != null ? meta.peakIdx : counts.indexOf(Math.max(...counts));
+  const peak = counts[peakIdx];
+  const thisMonth = counts[n - 1];
+  const yMax = Math.max(500, Math.ceil((peak * 1.08) / 500) * 500);
   const y = (v) => BASE - (v / yMax) * (BASE - Y0);
 
   let bars = '', clipBars = '', ticks = '', seps = '';
@@ -24,9 +34,10 @@ function generateCommitsMonthlySVG(theme, months) {
     const r = `x="${x.toFixed(1)}" y="${y(mo.c).toFixed(1)}" width="${barW}" height="${(h + 4).toFixed(1)}" rx="3.5"`;
     bars += `<rect class="m-bar" ${r} fill="url(#m-barGrad)" style="animation-delay:${340 + i * 22}ms"/>`;
     clipBars += `<rect ${r}/>`;
-    const [yy, mm] = mo.m.split('-');
+    const [, mm] = mo.m.split('-');
     if (mm === '01') {
       const sepX = X0 + i * pitch;
+      const [yy] = mo.m.split('-');
       seps += `<line class="m-sep" x1="${sepX.toFixed(1)}" y1="${Y0}" x2="${sepX.toFixed(1)}" y2="${BASE}"/>`;
       ticks += `<text class="m-tick" x="${(x + barW / 2).toFixed(1)}" y="${BASE + 18}" text-anchor="middle">${yy}</text>`;
     }
@@ -44,18 +55,15 @@ function generateCommitsMonthlySVG(theme, months) {
 
   const peakX = X0 + peakIdx * pitch + pitch / 2;
   const nowX = X0 + (n - 1) * pitch + pitch / 2;
-  const nowY = y(counts[n - 1]);
+  const nowY = y(thisMonth);
   const [py, pm] = months[peakIdx].m.split('-');
-  const label = (ym) => {
-    const [yy, mm] = ym.split('-');
-    return `${MONTH_NAMES[+mm - 1]} ${yy}`;
-  };
+  const subtitle = meta.monthlyRangeLabel || `${months[0].m} — ${months[n - 1].m} · last ${n} months · GitHub contributions`;
 
   const chips = [
     { l: 'TOTAL / 3Y', v: fmt(total) },
     { l: 'AVG / MONTH', v: fmt(avg) },
     { l: `PEAK · ${MONTH_NAMES[+pm - 1].toUpperCase()} ${py}`, v: fmt(peak) },
-    { l: 'THIS MONTH', v: fmt(counts[n - 1]) },
+    { l: 'THIS MONTH', v: fmt(thisMonth) },
   ];
 
   let chipsSVG = '';
@@ -67,7 +75,7 @@ function generateCommitsMonthlySVG(theme, months) {
     </g>`;
   });
 
-  return `<svg width="955" height="270" viewBox="0 0 ${W} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Commits per month, last 3 years. Total ${total}, average ${avg} per month, peak ${peak}.">
+  return `<svg width="955" height="270" viewBox="0 0 ${W} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contributions per month, last 3 years. Total ${total}, average ${avg} per month, peak ${peak}.">
   <style>
     .m-title { font: 600 18px 'Segoe UI', Ubuntu, sans-serif; fill: ${t.ink}; }
     .m-sub { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: ${t.muted}; }
@@ -105,8 +113,8 @@ function generateCommitsMonthlySVG(theme, months) {
   </defs>
 
   <rect x="0.5" y="0.5" rx="6" width="${W - 1}" height="${H - 1}" fill="${t.bg}" stroke="${t.border}"/>
-  <text class="m-title fade" x="25" y="38">Commits per month</text>
-  <text class="m-sub fade" x="25" y="57" style="animation-delay:.15s">${label(months[0].m)} — ${label(months[n - 1].m)} · last ${n} months · GitHub contributions</text>
+  <text class="m-title fade" x="25" y="38">Contributions per month</text>
+  <text class="m-sub fade" x="25" y="57" style="animation-delay:.15s">${subtitle}</text>
   ${chipsSVG}
   <g class="fade" style="animation-delay:.2s">${grid}${seps}</g>
   <g clip-path="url(#m-plotClip)">

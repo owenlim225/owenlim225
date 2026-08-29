@@ -1,4 +1,4 @@
-<svg width="955" height="270" viewBox="0 0 955 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Commits per month, last 3 years. Total 1706, average 47 per month, peak 145.">
+<svg width="955" height="270" viewBox="0 0 955 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contributions per month, last 3 years. Total 1706, average 47 per month, peak 145.">
   <style>
     .m-title { font: 600 18px 'Segoe UI', Ubuntu, sans-serif; fill: #1f2328; }
     .m-sub { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #656d76; }
@@ -46,10 +46,10 @@
   </defs>
 
   <rect x="0.5" y="0.5" rx="6" width="954" height="269" fill="#ffffff" stroke="#d0d7de"/>
-  <text class="m-title fade" x="25" y="38">Commits per month</text>
+  <text class="m-title fade" x="25" y="38">Contributions per month</text>
   <text class="m-sub fade" x="25" y="57" style="animation-delay:.15s">Sep 2023 — Aug 2026 · last 36 months · GitHub contributions</text>
   <g class="chip" style="animation-delay:850ms">
-      <text x="565" y="40" text-anchor="end" class="m-cv">1 706</text>
+      <text x="565" y="40" text-anchor="end" class="m-cv">1,706</text>
       <text x="565" y="56" text-anchor="end" class="m-cl">TOTAL / 3Y</text>
     </g><g class="chip" style="animation-delay:990ms">
       <text x="687" y="40" text-anchor="end" class="m-cv">47</text>
