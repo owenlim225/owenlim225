@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:5865F2,100:FA5C5C&height=240&section=header&text=Sherwin%20Limosnero&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Creative%20Technologist%20%E2%80%A2%20AI%20and%20Web3%20Builder&descAlignY=60&descSize=18&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:5865F2,100:FA5C5C&height=160&section=header&text=Sherwin%20Limosnero&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Creative%20Technologist%20%E2%80%A2%20AI%20and%20Web3%20Builder&descAlignY=60&descSize=18&animation=fadeIn"
     width="100%"
     alt="Sherwin Limosnero"
   />
