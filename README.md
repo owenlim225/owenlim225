@@ -57,6 +57,13 @@ Beyond development, I'm involved in **technical workshops, game showcases, devel
   </picture>
 </div>
 
+
+---
+
+<div align="center">
+
+*"If you want something you never had, you have to do something you never did."*
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/stats/activity-pulse-dark.svg">
@@ -64,11 +71,6 @@ Beyond development, I'm involved in **technical workshops, game showcases, devel
   </picture>
 </div>
 
----
-
-<div align="center">
-
-*"If you want something you never had, you have to do something you never did."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:5865F2,100:FA5C5C&height=160&section=footer" width="100%"/>
 
