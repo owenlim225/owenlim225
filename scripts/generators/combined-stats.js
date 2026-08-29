@@ -149,14 +149,12 @@ function generateCombinedStatsSVG(theme, stats) {
       <text class="cs-sub" x="82.5" y="114" text-anchor="middle">Total Contributions</text>
       <text class="cs-date" x="82.5" y="136" text-anchor="middle">${rangeLabel}</text>
     </g>
-    <g transform="translate(236,42)">
+    <g transform="translate(247.5,92)">
       <circle r="44" stroke="${t.grid}" stroke-width="7" fill="none"/>
       <circle class="cs-ringR" r="44" stroke="url(#cs-rg)" stroke-width="7" fill="none" stroke-linecap="round" transform="rotate(-90)"/>
-      <g transform="translate(0,0)">
-        <text class="cs-big" y="8" text-anchor="middle">${currentStreak}</text>
-        <text class="cs-cur" y="28" text-anchor="middle">Current streak</text>
-      </g>
+      <text class="cs-big" y="10" text-anchor="middle">${currentStreak}</text>
     </g>
+    <text class="cs-cur" x="247.5" y="162" text-anchor="middle">Current streak</text>
     <g transform="translate(350,120)">
       <path d="M-10 20 C-6 2, 12 -2, 16 18 L16 24 L-10 24 Z" fill="${t.accent}" opacity="0.8" class="cs-flame"/>
       <circle cx="2" cy="8" r="2.25" fill="${t.accent}" class="cs-flame"/>

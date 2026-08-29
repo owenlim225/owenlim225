@@ -7,8 +7,8 @@
 </div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/sherwin-l-77b1b8254" title="LinkedIn">
-  <img alt="LinkedIn" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="60" align="center"/>
+  <a href="https://linkedin.com/in/sherwin-l-77b1b8254" target="_blank" title="LinkedIn">
+  <img alt="LinkedIn" src="images/badges/linkedin.svg" height="60" align="center"/>
 </a>
 &nbsp;&nbsp;
 <a href="https://discord.gg/owenlim225" target="_blank" title="Discord">
@@ -56,6 +56,9 @@ I'm a **Creative technologist**, working across **game development, creative tec
 
 Beyond development, I'm involved in **technical workshops, game showcases, developer events, and community initiatives**. I believe in **building through experimentation, learning by creating, and sharing what I learn with others**.
 
+---
+
+
 ## Speaking & Community
 
 * **Founder of Kamiyon Studio** — building games and interactive experiences.
@@ -67,6 +70,16 @@ Beyond development, I'm involved in **technical workshops, game showcases, devel
 
 
 
+
+---
+
+<div align="center">
+
+*"If you want something you never had, you have to do something you never did."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:5865F2,100:FA5C5C&height=160&section=footer" width="100%"/>
+
+</div>
 
 
 
