@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:5865F2,100:FA5C5C&height=240&section=header&text=Sherwin%20Limosnero&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Creative%20Technologist%20%E2%80%A2%20AI%20and%20Web3%20Builder&descAlignY=60&descSize=18&animation=fadeIn"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,50:5865F2,100:FA5C5C&height=160&section=header&text=Sherwin%20Limosnero&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Creative%20Technologist%20%E2%80%A2%20AI%20and%20Web3%20Builder&descAlignY=60&descSize=18&animation=fadeIn"
     width="100%"
     alt="Sherwin Limosnero"
   />
@@ -24,6 +24,25 @@
 </a>
 </div>
 
+--- 
+## About Me
+
+I'm a **Creative technologist**, working across **game development, creative technology, AI, and Web3**. I build games and interactive experiences, explore AI-assisted development and automation, and contribute to emerging technology communities in the Philippines.
+
+Beyond development, I'm involved in **technical workshops, game showcases, developer events, and community initiatives**. I believe in **building through experimentation, learning by creating, and sharing what I learn with others**.
+
+---
+
+## Speaking & Community
+
+* **Founder of Kamiyon Studio** — building games and interactive experiences.
+* **Lead Contributor at Cryptita Plays**, supporting technical workshops and educational initiatives.
+* Speaker, facilitator, and organizer across **tech events**between startup to web3 communities.
+* Showcased projects at **PGDX, Game On! Manila, Global Game Jam, GameJamPlus25/26 and WOCEE**.
+* Facilitated blockchain workshops across different **blockchain networks**.
+<!-- * Gamedev lead at **Avalanche Team1 Philippines** while laguna lead contributor at **Base Philippines**. -->
+---
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/stats/combined-stats-dark.svg">
@@ -44,32 +63,6 @@
     <img src="images/stats/activity-pulse-light.svg" width="100%" alt="Contribution intensity, last 40 days"/>
   </picture>
 </div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/stats/waves-dark.svg">
-  <img src="images/stats/waves-light.svg" width="100%" height="70" alt=""/>
-</picture>
-
-## About Me
-
-I'm a **Creative technologist**, working across **game development, creative technology, AI, and Web3**. I build games and interactive experiences, explore AI-assisted development and automation, and contribute to emerging technology communities in the Philippines.
-
-Beyond development, I'm involved in **technical workshops, game showcases, developer events, and community initiatives**. I believe in **building through experimentation, learning by creating, and sharing what I learn with others**.
-
----
-
-
-## Speaking & Community
-
-* **Founder of Kamiyon Studio** — building games and interactive experiences.
-* **Lead Contributor at Cryptita Plays**, supporting technical workshops and educational initiatives.
-* Speaker, facilitator, and organizer across **tech events**between startup to web3 communities.
-* Showcased projects at **PGDX, Game On! Manila, Global Game Jam, GameJamPlus25/26 and WOCEE**.
-* Facilitated blockchain workshops across different **blockchain networks**.
-<!-- * Gamedev lead at **Avalanche Team1 Philippines** while laguna lead contributor at **Base Philippines**. -->
-
-
-
 
 ---
 
