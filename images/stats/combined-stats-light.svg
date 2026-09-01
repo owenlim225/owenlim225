@@ -1,4 +1,4 @@
-<svg width="955" height="195" viewBox="0 0 955 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: 45 stars, 976 commits, rank S+. 1,722 contributions, current streak 1 days.">
+<svg width="955" height="195" viewBox="0 0 955 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: 45 stars, 976 commits, rank S+. 1,722 contributions, current streak 0 days.">
   <style>
     .cs-lab { font: 400 12.5px 'Segoe UI', Ubuntu, sans-serif; fill: #656d76; }
     .cs-val { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: #1f2328; }
@@ -19,14 +19,14 @@
     @keyframes cs-fadein { to { opacity: 1; } }
     @keyframes cs-grow { to { transform: scaleX(1); } }
     @keyframes cs-drawL { to { stroke-dashoffset: 0.00; } }
-    @keyframes cs-drawR { to { stroke-dashoffset: 235.62; } }
+    @keyframes cs-drawR { to { stroke-dashoffset: 251.33; } }
     @keyframes cs-breathe { from { opacity: .45; } to { opacity: 1; } }
     @keyframes cs-flick { 0%, 100% { opacity: 1; } 40% { opacity: .68; } 65% { opacity: .9; } }
     @media (prefers-reduced-motion: reduce) {
       .cs-fade, .cs-row, .cs-spark { animation: none; opacity: 1; }
       .cs-bar { animation: none; transform: none; }
       .cs-ringL { animation: none; stroke-dashoffset: 0.00; }
-      .cs-ringR { animation: none; stroke-dashoffset: 235.62; }
+      .cs-ringR { animation: none; stroke-dashoffset: 251.33; }
       .cs-halo, .cs-flame { animation: none; }
     }
   </style>
@@ -97,8 +97,8 @@
   <g transform="translate(460,0)">
     <rect x="0.5" y="0.5" rx="6" width="494" height="194" fill="#ffffff" stroke="#d0d7de"/>
     <g class="cs-spark" clip-path="url(#cs-clipR)">
-      <path d="M1.0,177.9 L38.9,192.0 L76.8,191.6 L114.8,191.2 L152.7,177.1 L190.6,173.0 L228.5,178.8 L266.5,166.3 L304.4,159.3 L342.3,143.6 L380.2,137.4 L418.2,188.3 L456.1,132.0 L494.0,135.7 L494,194 L1,194 Z" fill="#0969da" opacity=".06"/>
-      <path d="M1.0,177.9 L38.9,192.0 L76.8,191.6 L114.8,191.2 L152.7,177.1 L190.6,173.0 L228.5,178.8 L266.5,166.3 L304.4,159.3 L342.3,143.6 L380.2,137.4 L418.2,188.3 L456.1,132.0 L494.0,135.7" stroke="#0969da" stroke-width="1.5" fill="none" opacity=".3"/>
+      <path d="M1.0,192.0 L38.9,191.6 L76.8,191.2 L114.8,177.1 L152.7,173.0 L190.6,178.8 L228.5,166.3 L266.5,159.3 L304.4,143.6 L342.3,137.4 L380.2,188.3 L418.2,132.0 L456.1,135.7 L494.0,192.0 L494,194 L1,194 Z" fill="#0969da" opacity=".06"/>
+      <path d="M1.0,192.0 L38.9,191.6 L76.8,191.2 L114.8,177.1 L152.7,173.0 L190.6,178.8 L228.5,166.3 L266.5,159.3 L304.4,143.6 L342.3,137.4 L380.2,188.3 L418.2,132.0 L456.1,135.7 L494.0,192.0" stroke="#0969da" stroke-width="1.5" fill="none" opacity=".3"/>
     </g>
     <line x1="165" y1="30" x2="165" y2="170" stroke="url(#cs-sep)"/>
     <line x1="330" y1="30" x2="330" y2="170" stroke="url(#cs-sep)"/>
@@ -110,7 +110,7 @@
     <g transform="translate(247.5,92)">
       <circle r="44" stroke="#eaeef2" stroke-width="7" fill="none"/>
       <circle class="cs-ringR" r="44" stroke="url(#cs-rg)" stroke-width="7" fill="none" stroke-linecap="round" transform="rotate(-90)"/>
-      <text class="cs-big" y="10" text-anchor="middle">1</text>
+      <text class="cs-big" y="10" text-anchor="middle">0</text>
     </g>
     <text class="cs-cur" x="247.5" y="162" text-anchor="middle">Current streak</text>
     <g transform="translate(350,120)">
