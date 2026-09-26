@@ -81,9 +81,9 @@
     </g>
     <g class="cs-row" style="animation-delay:590ms">
       <text class="cs-lab" x="25" y="164">Followers</text>
-      <text class="cs-val" x="300" y="165" text-anchor="end">25</text>
+      <text class="cs-val" x="300" y="165" text-anchor="end">26</text>
       <rect x="25" y="172" width="275" height="4" rx="2" fill="#21262d"/>
-      <rect class="cs-bar" style="animation-delay:690ms" x="25" y="172" width="130" height="4" rx="2" fill="url(#cs-bg)"/>
+      <rect class="cs-bar" style="animation-delay:690ms" x="25" y="172" width="132" height="4" rx="2" fill="url(#cs-bg)"/>
     </g>
     <g transform="translate(382,92)">
       <circle class="cs-halo" r="57" fill="url(#cs-hg)"/>
