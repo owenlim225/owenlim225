@@ -81,9 +81,9 @@
     </g>
     <g class="cs-row" style="animation-delay:590ms">
       <text class="cs-lab" x="25" y="164">Followers</text>
-      <text class="cs-val" x="300" y="165" text-anchor="end">30</text>
+      <text class="cs-val" x="300" y="165" text-anchor="end">29</text>
       <rect x="25" y="172" width="275" height="4" rx="2" fill="#eaeef2"/>
-      <rect class="cs-bar" style="animation-delay:690ms" x="25" y="172" width="135" height="4" rx="2" fill="url(#cs-bg)"/>
+      <rect class="cs-bar" style="animation-delay:690ms" x="25" y="172" width="134" height="4" rx="2" fill="url(#cs-bg)"/>
     </g>
     <g transform="translate(382,92)">
       <circle class="cs-halo" r="57" fill="url(#cs-hg)"/>
@@ -97,8 +97,8 @@
   <g transform="translate(460,0)">
     <rect x="0.5" y="0.5" rx="6" width="494" height="194" fill="#ffffff" stroke="#d0d7de"/>
     <g class="cs-spark" clip-path="url(#cs-clipR)">
-      <path d="M1.0,191.7 L38.9,191.5 L76.8,182.6 L114.8,179.9 L152.7,183.6 L190.6,175.8 L228.5,171.3 L266.5,161.3 L304.4,157.4 L342.3,189.6 L380.2,154.0 L418.2,156.4 L456.1,133.3 L494.0,132.0 L494,194 L1,194 Z" fill="#0969da" opacity=".06"/>
-      <path d="M1.0,191.7 L38.9,191.5 L76.8,182.6 L114.8,179.9 L152.7,183.6 L190.6,175.8 L228.5,171.3 L266.5,161.3 L304.4,157.4 L342.3,189.6 L380.2,154.0 L418.2,156.4 L456.1,133.3 L494.0,132.0" stroke="#0969da" stroke-width="1.5" fill="none" opacity=".3"/>
+      <path d="M1.0,191.5 L38.9,182.6 L76.8,179.9 L114.8,183.6 L152.7,175.8 L190.6,171.3 L228.5,161.3 L266.5,157.4 L304.4,189.6 L342.3,154.0 L380.2,156.4 L418.2,133.3 L456.1,132.0 L494.0,192.0 L494,194 L1,194 Z" fill="#0969da" opacity=".06"/>
+      <path d="M1.0,191.5 L38.9,182.6 L76.8,179.9 L114.8,183.6 L152.7,175.8 L190.6,171.3 L228.5,161.3 L266.5,157.4 L304.4,189.6 L342.3,154.0 L380.2,156.4 L418.2,133.3 L456.1,132.0 L494.0,192.0" stroke="#0969da" stroke-width="1.5" fill="none" opacity=".3"/>
     </g>
     <line x1="165" y1="30" x2="165" y2="170" stroke="url(#cs-sep)"/>
     <line x1="330" y1="30" x2="330" y2="170" stroke="url(#cs-sep)"/>
